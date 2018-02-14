@@ -101,11 +101,19 @@ p {
  * Choose a different color based on the type of pricing table.
  */
 .pricing-table-free .pricing-table-header {
-    background: #519251;
+    background-image: url('http://www.augreduvent.fr/usermedia/photo-635578729336482432-2.jpg?w=310&h=230&crop=true');
+    background-position: center;
 }
 
 .pricing-table-biz .pricing-table-header {
-    background: #2c4985;
+      background-image: url('http://www.augreduvent.fr/usermedia/photo-635923519820315928-2.JPG?w=310&h=230&crop=true');
+      background-position: center;
+}
+
+.pricing-table-enterprise .pricing-table-header {
+      background-image:url('http://scrat.hellocoton.fr/img/classic/50-votre-traversee-de-l-erdre-en-bateau-electrique-avec-le-ruban-vert-2926228.jpg');
+      background-size: cover;
+      background-position: center;
 }
 
 /*

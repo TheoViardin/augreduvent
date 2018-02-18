@@ -36,6 +36,11 @@ p {
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 
+.pure-menu-heading {
+  height: 50px;
+  width: 65px;
+}
+
 .pure-menu-link {
     padding: .5em .7em;
 }
@@ -184,7 +189,7 @@ p {
  */
 .button-choose {
     border: 1px solid #ccc;
-    background: #fff;
+    background: #2ECCFA;
     color: #333;
     border-radius: 2em;
     font-weight: bold;
@@ -205,6 +210,38 @@ p {
     .footer a {
         color: #ddd;
     }
+
+.viadeo {
+  height: 40px;
+  width: 40px;
+  float: left;
+}
+
+.linkedin {
+  height: 40px;
+  width: 40px;
+  float: left;
+  padding-left: 5px;
+}
+
+.googleplus {
+  height: 40px;
+  width: 40px;
+  float: left;
+  padding-left: 5px;
+}
+
+.facebook {
+  height: 40px;
+  width: 40px;
+  float: left;
+  padding-left: 5px;
+}
+
+.contact {
+  float: right;
+  font-size: 10px;
+}
 
 
 

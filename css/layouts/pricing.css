@@ -172,8 +172,11 @@ p {
  */
 .pricing-table-list li {
     padding: 0.8em 0;
-    background: #f7f7f7;
-    border-bottom: 1px solid #e7e7e7;
+    background: #CEE3F6;
+    border-bottom: 1px solid #333;
+}
+
+.pricing-table-free {
 }
 
 
@@ -184,7 +187,7 @@ p {
  */
 .button-choose {
     border: 1px solid #ccc;
-    background: #fff;
+    background: #81BEF7;
     color: #333;
     border-radius: 2em;
     font-weight: bold;

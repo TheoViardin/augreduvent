@@ -70,6 +70,31 @@ p {
         text-shadow: 0 1px 1px black;
     }
 
+    .banner-affaire {
+        background: transparent url('http://www.augreduvent.fr/usermedia/photo-635578725379067481-2.JPG?w=736&h=399&crop=true') 0 0 no-repeat fixed;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+
+
+        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.augreduvent.fr/usermedia/photo-635578725379067481-2.JPG?w=736&h=399&crop=true', sizingMethod='scale');
+
+        height: 200px;
+        width: 100%;
+        margin-bottom: 3em;
+        display: table;
+    }
+
+        .banner-head-affaire {
+            display: table-cell;
+            vertical-align: middle;
+            margin-bottom: 0;
+            font-size: 4em;
+            color: white;
+            font-weight: 1000;
+            text-shadow: 0 1px 1px black;
+        }
+
 
 
 /*

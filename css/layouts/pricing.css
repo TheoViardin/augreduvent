@@ -4,6 +4,11 @@
  */
 body {
     color: #526066;
+    height: 100%;
+}
+
+html {
+  height: 100%;
 }
 
 h2, h3 {
@@ -26,6 +31,7 @@ p {
 
 .l-box {
     padding: 0.5em 2em;
+    margin: auto;
 }
 
 /*
@@ -42,7 +48,15 @@ p {
 }
 
 .pure-menu-link {
-    padding: .5em .7em;
+  padding: .5em .7em;
+}
+
+.pure-menu-list {
+
+}
+
+.pure-menu .custom-restricted-width {
+
 }
 
 
@@ -206,10 +220,15 @@ p {
     background: #111;
     color: #888;
     text-align: center;
+  /*  position:absolute;
+    bottom:0;
+    width:100%;
+*/
 }
-    .footer a {
-        color: #ddd;
-    }
+
+.footer a {
+  color: #ddd;
+}
 
 .viadeo {
   height: 40px;
@@ -241,6 +260,66 @@ p {
 .contact {
   float: right;
   font-size: 10px;
+}
+
+.l-box-affaire-1 img {
+  width: 100%;
+  height: auto;
+  padding-left: 50px;
+
+}
+
+.l-box-affaire-2 img {
+  width: 100%;
+  height: auto;
+}
+
+.l-box-affaireT2 p {
+  padding-left: 50px;
+}
+
+.l-box-affaireT2 h3 {
+  padding-left: 50px;
+}
+
+
+
+.l-box-loisirs-1 img {
+  width: 100%;
+  height: auto;
+  padding-left: 50px;
+}
+
+.l-box-loisirs-2 img {
+  width: 100%;
+  height: auto;
+}
+
+.l-box-loisirsT2 p {
+  padding-left: 50px;
+}
+
+.l-box-loisirsT2 h3 {
+  padding-left: 50px;
+}
+
+.l-box-bNautique-1 img {
+  width: 100%;
+  height: auto;
+  padding-left: 50px;
+}
+
+.l-box-bNautique-2 img {
+  width: 100%;
+  height: auto;
+}
+
+.l-box-bNautiqueT2 p {
+  padding-left: 50px;
+}
+
+.l-box-bNautiqueT2 h3 {
+  padding-left: 50px;
 }
 
 

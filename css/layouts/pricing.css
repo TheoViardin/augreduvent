@@ -27,6 +27,7 @@ p {
  */
 .l-content {
     margin: 0 auto;
+
 }
 
 .l-box {
@@ -72,7 +73,6 @@ p {
     text-align: center;
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.oceans-evasion.com/intranet/document/brehat.jpg', sizingMethod='scale');
-
     height: 200px;
     width: 100%;
     margin-bottom: 3em;
@@ -87,6 +87,10 @@ p {
         color: white;
         font-weight: 1000;
         text-shadow: 0 1px 1px black;
+    }
+
+    .banner h1 {
+      padding-bottom: 150px;
     }
 
 
@@ -320,6 +324,16 @@ p {
 
 .l-box-bNautiqueT2 h3 {
   padding-left: 50px;
+}
+
+.pure-u-1 {
+   margin-top: 0px;
+   margin-bottom: 10px;
+
+}
+
+.pure-u-1:hover img {
+  opacity: 0.3;
 }
 
 

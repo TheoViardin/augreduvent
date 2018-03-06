@@ -41,7 +41,17 @@ p {
  */
 .pure-menu {
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    background-color: #111;
 }
+
+.pure-menu a {
+  color: #E6E6E6;
+}
+
+.pure-menu-selected a {
+  color: #FFF;
+}
+
 
 .pure-menu-heading {
   height: 50px;
@@ -195,7 +205,7 @@ p {
  */
 .pricing-table-list li {
     padding: 0.8em 0;
-    background: #CEE3F6;
+    background: #FFF;
     border-bottom: 1px solid #333;
 }
 
@@ -207,9 +217,9 @@ p {
  */
 .button-choose {
     border: 1px solid #ccc;
-    background: #81BEF7;
+    background: rgb(66, 184, 221);
     color: #333;
-    border-radius: 2em;
+    border-radius: 4px;
     font-weight: bold;
     position: relative;
     bottom: -1.5em;
@@ -332,8 +342,22 @@ p {
 
 }
 
-.pure-u-1:hover img {
-  opacity: 0.3;
+
+
+.pricing-table-header h2 {
+  opacity: 0;
+}
+
+.pricing-table-header:hover h2 {
+  opacity: 1;
+  color: #FFF;
+  transition: .3s ease-in-out;
+
+}
+
+.pricing-table-header:hover {
+	filter: grayscale(100%);
+  transition: .3s ease-in-out;
 }
 
 

@@ -49,7 +49,7 @@ p {
 }
 
 .pure-menu-selected a {
-  color: #FFF;
+  background-color: white;
 }
 
 
@@ -360,6 +360,10 @@ p {
   transition: .3s ease-in-out;
 }
 
+.pure-menu-link:hover {
+  background-color: #FFF;
+  color: black;
+}
 
 
 /*

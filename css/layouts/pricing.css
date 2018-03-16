@@ -40,6 +40,7 @@ p {
  * Make the menu have a very faint box-shadow.
  */
 .pure-menu {
+<<<<<<< HEAD
     /*box-shadow: 0 1px 1px rgba(0,0,0, 0.10);*/
     background-color: #000;
     position: fixed;
@@ -48,6 +49,11 @@ p {
     text-align: center;
     z-index: 999;
 
+=======
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    background-color: #000;
+    margin: auto;
+>>>>>>> 2237c99922d77342c87b8e33111f1bc6742d3901
 }
 
 .pure-menu a {

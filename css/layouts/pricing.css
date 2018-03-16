@@ -40,20 +40,12 @@ p {
  * Make the menu have a very faint box-shadow.
  */
 .pure-menu {
-<<<<<<< HEAD
     /*box-shadow: 0 1px 1px rgba(0,0,0, 0.10);*/
-    background-color: #000;
-    position: fixed;
+    position: absolute;
     top: 0px;
     height: 50px;
     text-align: center;
     z-index: 999;
-
-=======
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-    background-color: #000;
-    margin: auto;
->>>>>>> 2237c99922d77342c87b8e33111f1bc6742d3901
 }
 
 .pure-menu a {
@@ -82,7 +74,12 @@ p {
   height: 50px;
 }
 
-.pure-menu-list {
+.top {
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+.left {
+  background-color: #111;
 }
 
 .pure-menu .custom-restricted-width {
@@ -110,7 +107,7 @@ p {
 
     .banner-head {
         display: table-cell;
-        vertical-align: middle;
+        vertical-align: bottom;
         margin-bottom: 0;
         font-size: 4em;
         color: white;

@@ -52,6 +52,10 @@ p {
   color: #000;
 }
 
+.pure-menu {
+  top: 40px;
+}
+
 .pure-menu-selected {
   background-color: white;
 }

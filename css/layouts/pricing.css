@@ -48,8 +48,8 @@ p {
     z-index: 999;
 }
 
-.pure-menu a {
-  color: #E6E6E6;
+.pure-menu .top a{
+  color: #000;
 }
 
 .pure-menu-selected {
@@ -74,8 +74,8 @@ p {
   height: 50px;
 }
 
-.top {
-  background-color: rgba(200, 200, 200, 0.5);
+.pure-menu .left a{
+  color: #E6E6E6;
 }
 
 .left {
@@ -390,7 +390,7 @@ p {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.oceans-evasion.com/intranet/document/brehat.jpg', sizingMethod='scale');
   height: 400px;
   width: 100%;
-  margin-bottom: 3em;
+  margin-bottom: 5em;
   display: table;
 }
 
@@ -399,7 +399,7 @@ p {
 }
 
 .bannerLoisirs {
-  background-image: url('../../img/bannerTLoisirs.jpg');
+  background-image: url('../../img/bannerLoisir.jpg');
   text-align: center;
   background-size: cover;
   height: 400px;
@@ -414,7 +414,7 @@ p {
 }
 
 .bannerNautique {
-  background-image: url('http://www.cewe.fr/blog/wp-content/uploads/sites/8/2016/03/cap-frehel-2.jpg');
+  background-image: url('../../img/bannerNautique.jpg');
   text-align: center;
   background-size: cover;
   height: 400px;

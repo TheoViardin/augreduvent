@@ -109,7 +109,7 @@ p {
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.oceans-evasion.com/intranet/document/brehat.jpg', sizingMethod='scale');
     height: 200px;
     width: 100%;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
     display: table;
 }
 
@@ -392,7 +392,7 @@ p {
 }
 
 .bannerAffaire {
-  background-image: url('../../img/phare_de_la_vieille-3.jpg');
+  background-image: url('https://i.pinimg.com/originals/17/b4/6d/17b46d13d9edc2758eb825ac5d0619c0.jpg');
   text-align: center;
   background-size: cover;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.oceans-evasion.com/intranet/document/brehat.jpg', sizingMethod='scale');

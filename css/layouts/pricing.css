@@ -82,6 +82,10 @@ p {
   color: #E6E6E6;
 }
 
+.pure-menu .left a:hover{
+  color: #000;
+}
+
 .left {
   background-color: #111;
 }

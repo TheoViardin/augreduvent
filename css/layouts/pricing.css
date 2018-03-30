@@ -47,8 +47,8 @@ p {
     text-align: center;
     z-index: 999;
     margin: 0 ;
- padding: 0 ;
- list-style: 0 ;
+    padding: 0 ;
+    list-style: 0 ;
 }
 
 .pure-menu li {
@@ -485,6 +485,7 @@ p {
     list-style: none;
     margin: 0;
     padding: 0;
+    padding-top: 20px;
   }
 
   .pure-menu-heading {
@@ -493,8 +494,29 @@ p {
 
   .banner-head {
       font-size: 1.5em;
+      padding-bottom: 350px;
+
   }
 
+  .banner h1 {
+    padding-bottom: 270px;
+  }
+
+  .bannerAffaire h1 {
+    padding-bottom: 350px;
+  }
+
+  .bannerLoisirs h1 {
+    padding-bottom: 350px;
+  }
+
+  .bannerNautique h1 {
+    padding-bottom: 350px;
+  }
+
+  .banner {
+    height: 40%;
+  }
 
 }
 
@@ -502,6 +524,7 @@ p {
   .logoBretagne {
     visibility: hidden;
   }
+
 }
 
 @media (max-width: 1300px) {

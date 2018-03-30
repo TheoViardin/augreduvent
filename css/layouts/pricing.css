@@ -490,6 +490,7 @@ p {
 
   .pure-menu-heading {
     width: 50px;
+    padding-bottom: 350px;
   }
 
   .banner-head {
@@ -516,6 +517,18 @@ p {
 
   .banner {
     height: 40%;
+  }
+
+  .l-box-affaire-1 img {
+    padding: 0;
+  }
+
+  .l-box-loisirs-1 img {
+    padding: 0;
+  }
+
+  .l-box-bNautique-1 img {
+    padding: 0;
   }
 
 }
